@@ -1,0 +1,1131 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.2.14835/W32 for ARM                25/Apr/2018  20:51:18
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Exe\Prog3.out
+#    Map file     =  
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\List\Prog3.map
+#    Command line =  
+#        -f C:\Users\Lalit\AppData\Local\Temp\EW47BA.tmp
+#        (C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\app_vect.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\BfrPair.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp_i2c.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp_int.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp_os.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp_periph.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp_ser.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\bsp_stlm75.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\Buffer.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\Error.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\os_app_hooks.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\os_cfg_app.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\os_dbg.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\Payload.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\PktParser.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\Prog4.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\SerIODriver.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_adc.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_bkp.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_can.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_crc.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_dac.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_dbgmcu.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_dma.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_exti.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_flash.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_fsmc.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_gpio.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_i2c.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_iwdg.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_lib.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_nvic.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_pwr.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_rcc.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_rtc.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_sdio.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_spi.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_systick.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_tim.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_usart.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj\stm32f10x_wwdg.o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\uCOS-III-Lib\uC-CPU-CM3-IAR.a
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\uCOS-III-Lib\uC-LIB-CM3-IAR.a
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\uCOS-III-Lib\uCOS-III-CM3-IAR.a
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Exe\Prog3.out
+#        --map
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\List\Prog3.map
+#        --config
+#        C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\..\BSP\STM32_FLASH.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P2":  place in [from 0x080000ec to 0x0803ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+"P3":  place in [from 0x20000000 to 0x2000ffff] { block CSTACK };
+define block HEAP with size = 0M, alignment = 8 { };
+"P4":  place in [from 0x20000000 to 0x2000ffff] { rw, block HEAP };
+
+No sections matched the following patterns:
+
+  rw data section USB_PACKET_MEMORY  in "P1"
+
+
+  Section          Kind        Address    Size  Object
+  -------          ----        -------    ----  ------
+"A0":                                    0x150
+  .intvec          const    0x08000000   0x150  app_vect.o [1]
+                          - 0x08000150   0x150
+
+"P2":                                   0x6a81
+  .text            ro code  0x08000150   0xe1e  xprintffull_nomb.o [3]
+  .text            ro code  0x08000f6e    0x1a  xsnprout.o [3]
+  .text            ro code  0x08000f88    0x16  strchr.o [5]
+  .text            ro code  0x08000f9e     0xe  app_vect.o [1]
+  .text            ro code  0x08000fac    0x44  xfail_s.o [3]
+  .text            ro code  0x08000ff0    0x36  strlen.o [5]
+  .rodata          const    0x08001026     0x2  os_cfg_app.o [1]
+  .text            ro code  0x08001028    0x58  memchr.o [5]
+  .text            ro code  0x08001080   0x22e  I64DivMod.o [5]
+  .rodata          const    0x080012ae     0x2  os_cfg_app.o [1]
+  .text            ro code  0x080012b0   0x1a2  DblMul.o [4]
+  .rodata          const    0x08001452     0x2  os_cfg_app.o [1]
+  .text            ro code  0x08001454    0xa6  ABImemcpy.o [5]
+  .rodata          const    0x080014fa     0x2  os_dbg.o [1]
+  .text            ro code  0x080014fc    0x70  frexp.o [4]
+  .text            ro code  0x0800156c    0x2e  DblCmpLe.o [4]
+  .rodata          const    0x0800159a     0x2  os_dbg.o [1]
+  .text            ro code  0x0800159c    0x2e  DblCmpGe.o [4]
+  .rodata          const    0x080015ca     0x2  os_dbg.o [1]
+  .text            ro code  0x080015cc   0x13a  ldexp.o [4]
+  .rodata          const    0x08001706     0x2  os_dbg.o [1]
+  .text            ro code  0x08001708    0x3a  DblToS32.o [4]
+  .rodata          const    0x08001742     0x2  os_dbg.o [1]
+  .text            ro code  0x08001744    0x22  S32ToDbl.o [4]
+  .rodata          const    0x08001766     0x2  os_dbg.o [1]
+  .text            ro code  0x08001768    0xe2  DblSub.o [4]
+  .rodata          const    0x0800184a     0x2  os_dbg.o [1]
+  .text            ro code  0x0800184c   0x246  DblDiv.o [4]
+  .rodata          const    0x08001a92     0x2  os_dbg.o [1]
+  .text            ro code  0x08001a94    0x28  DblToU32.o [4]
+  .text            ro code  0x08001abc    0x1a  U32ToDbl.o [4]
+  .text            ro code  0x08001ad6     0x6  abort.o [3]
+  .text            ro code  0x08001adc     0x2  I64DivZer.o [5]
+  .rodata          const    0x08001ade     0x2  os_dbg.o [1]
+  .text            ro code  0x08001ae0   0x168  DblAdd.o [4]
+  .text            ro code  0x08001c48    0x14  exit.o [6]
+  .text            ro code  0x08001c5c   0xba6  os_core.o [9]
+  .rodata          const    0x08002802     0x2  os_dbg.o [1]
+  .text            ro code  0x08002804    0xa4  os_prio.o [9]
+  .text            ro code  0x080028a8   0x86c  os_task.o [9]
+  .text            ro code  0x08003114   0x508  os_tick.o [9]
+  .text            ro code  0x0800361c   0x3f4  os_stat.o [9]
+  .text            ro code  0x08003a10    0x1c  os_flag.o [9]
+  .text            ro code  0x08003a2c    0x1c  os_mem.o [9]
+  .text            ro code  0x08003a48    0xfc  os_msg.o [9]
+  .text            ro code  0x08003b44    0x1c  os_mutex.o [9]
+  .text            ro code  0x08003b60    0x1c  os_q.o [9]
+  .text            ro code  0x08003b7c   0x3ca  os_sem.o [9]
+  .rodata          const    0x08003f46     0x2  os_dbg.o [1]
+  .text            ro code  0x08003f48   0x340  os_tmr.o [9]
+  .text            ro code  0x08004288   0x228  os_dbg.o [1]
+  .text            ro code  0x080044b0   0x26c  os_cpu_c.o [9]
+  .text            ro code  0x0800471c   0x108  os_cfg_app.o [1]
+  CODE             ro code  0x08004824    0x2a  cpu_a.o [7]
+  .rodata          const    0x0800484e     0x2  os_dbg.o [1]
+  .text            ro code  0x08004850   0x1d8  cpu_core.o [7]
+  CODE             ro code  0x08004a28    0x94  os_cpu_a.o [9]
+  .text            ro code  0x08004abc   0x168  bsp.o [1]
+  .text            ro code  0x08004c24   0x11c  os_time.o [9]
+  .text            ro code  0x08004d40    0x94  lib_mem.o [8]
+  .text            ro code  0x08004dd4   0x2fe  bsp_int.o [1]
+  .rodata          const    0x080050d2     0x2  os_dbg.o [1]
+  .text            ro code  0x080050d4   0x480  stm32f10x_rcc.o [1]
+  .text            ro code  0x08005554    0x44  stm32f10x_flash.o [1]
+  .text            ro code  0x08005598   0x164  stm32f10x_gpio.o [1]
+  .text            ro code  0x080056fc   0x14c  cpu_c.o [7]
+  .text            ro code  0x08005848   0x2d0  Payload.o [1]
+  .text            ro code  0x08005b18   0x100  BfrPair.o [1]
+  .text            ro code  0x08005c18    0x68  Error.o [1]
+  .text            ro code  0x08005c80   0x228  SerIODriver.o [1]
+  .text            ro code  0x08005ea8    0xec  Buffer.o [1]
+  .text            ro code  0x08005f94    0x3c  vsnprint.o [3]
+  .text            ro code  0x08005fd0   0x22c  PktParser.o [1]
+  .text            ro code  0x080061fc    0xe8  stm32f10x_usart.o [1]
+  .text            ro code  0x080062e4    0xe0  Prog4.o [1]
+  .text            ro code  0x080063c4    0xac  bsp_ser.o [1]
+  .text            ro code  0x08006470    0x90  bsp_periph.o [1]
+  .rodata          const    0x08006500    0x50  Payload.o [1]
+  .rodata          const    0x08006550    0x4c  Payload.o [1]
+  .rodata          const    0x0800659c    0x4c  Payload.o [1]
+  .rodata          const    0x080065e8    0x48  Payload.o [1]
+  .rodata          const    0x08006630    0x44  Payload.o [1]
+  .rodata          const    0x08006674    0x40  Payload.o [1]
+  .text            ro code  0x080066b4    0x40  zero_init3.o [5]
+  .rodata          const    0x080066f4    0x3c  Payload.o [1]
+  .rodata          const    0x08006730    0x34  Error.o [1]
+  .rodata          const    0x08006764    0x34  os_dbg.o [1]
+  .rodata          const    0x08006798    0x30  Error.o [1]
+  .rodata          const    0x080067c8    0x30  Error.o [1]
+  .rodata          const    0x080067f8    0x30  Error.o [1]
+  .rodata          const    0x08006828    0x30  Error.o [1]
+  .rodata          const    0x08006858    0x30  os_dbg.o [1]
+  .rodata          const    0x08006888    0x2c  os_dbg.o [1]
+  .rodata          const    0x080068b4    0x2c  Payload.o [1]
+  .rodata          const    0x080068e0    0x28  os_dbg.o [1]
+  .rodata          const    0x08006908    0x28  os_dbg.o [1]
+  .text            ro code  0x08006930    0x28  data_init.o [5]
+  .rodata          const    0x08006958    0x24  Error.o [1]
+  .iar.init_table  const    0x0800697c    0x10  - Linker created -
+  .rodata          const    0x0800698c    0x20  os_dbg.o [1]
+  .rodata          const    0x080069ac    0x20  Payload.o [1]
+  .rodata          const    0x080069cc    0x20  Payload.o [1]
+  .text            ro code  0x080069ec    0x1e  cmain.o [5]
+  .text            ro code  0x08006a0a     0x4  low_level_init.o [3]
+  .text            ro code  0x08006a0e     0x4  exit.o [3]
+  .rodata          const    0x08006a12     0x2  os_dbg.o [1]
+  .text            ro code  0x08006a14     0xa  cexit.o [5]
+  .rodata          const    0x08006a1e     0x2  os_dbg.o [1]
+  .rodata          const    0x08006a20    0x18  os_tmr.o [9]
+  .rodata          const    0x08006a38    0x14  Payload.o [1]
+  .rodata          const    0x08006a4c    0x14  Payload.o [1]
+  .rodata          const    0x08006a60    0x14  os_core.o [9]
+  .rodata          const    0x08006a74    0x14  os_stat.o [9]
+  .rodata          const    0x08006a88    0x14  os_tick.o [9]
+  .rodata          const    0x08006a9c    0x10  PktParser.o [1]
+  .rodata          const    0x08006aac    0x10  SerIODriver.o [1]
+  .rodata          const    0x08006abc    0x10  stm32f10x_rcc.o [1]
+  .rodata          const    0x08006acc     0xc  Payload.o [1]
+  .rodata          const    0x08006ad8     0xc  Prog4.o [1]
+  .rodata          const    0x08006ae4     0xc  SerIODriver.o [1]
+  .rodata          const    0x08006af0     0xc  os_core.o [9]
+  .text            ro code  0x08006afc     0xc  cstartup_M.o [5]
+  .rodata          const    0x08006b08     0x8  os_core.o [9]
+  .rodata          const    0x08006b10     0x8  os_task.o [9]
+  .rodata          const    0x08006b18     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b1c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b20     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b24     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b28     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b2c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b30     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b34     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b38     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b3c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b40     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b44     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b48     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b4c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b50     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b54     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b58     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b5c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b60     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b64     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b68     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b6c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b70     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b74     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b78     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b7c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b80     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b84     0x4  os_cfg_app.o [1]
+  .rodata          const    0x08006b88     0x4  os_dbg.o [1]
+  .rodata          const    0x08006b8c     0x4  os_dbg.o [1]
+  .rodata          const    0x08006b90     0x4  os_dbg.o [1]
+  .rodata          const    0x08006b94     0x4  stm32f10x_rcc.o [1]
+  .rodata          const    0x08006b98     0x2  os_dbg.o [1]
+  .rodata          const    0x08006b9a     0x2  os_dbg.o [1]
+  .rodata          const    0x08006b9c     0x2  os_dbg.o [1]
+  .rodata          const    0x08006b9e     0x2  os_dbg.o [1]
+  .rodata          const    0x08006ba0     0x2  os_dbg.o [1]
+  .rodata          const    0x08006ba2     0x2  os_dbg.o [1]
+  .rodata          const    0x08006ba4     0x2  os_dbg.o [1]
+  .rodata          const    0x08006ba6     0x2  os_dbg.o [1]
+  .rodata          const    0x08006ba8     0x1  os_cfg_app.o [1]
+  .rodata          const    0x08006ba9     0x1  os_cfg_app.o [1]
+  .rodata          const    0x08006baa     0x1  os_cfg_app.o [1]
+  .rodata          const    0x08006bab     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bac     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bad     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bae     0x1  os_dbg.o [1]
+  .rodata          const    0x08006baf     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb0     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb1     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb2     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb3     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb4     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb5     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb6     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb7     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb8     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bb9     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bba     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bbb     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bbc     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bbd     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bbe     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bbf     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc0     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc1     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc2     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc3     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc4     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc5     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc6     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc7     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc8     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bc9     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bca     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bcb     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bcc     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bcd     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bce     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bcf     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bd0     0x1  os_dbg.o [1]
+  .rodata          const    0x08006bd1     0x0  zero_init3.o [5]
+                          - 0x08006bd1  0x6a81
+
+"P3-P4", part 1 of 2:                   0x2428
+  .bss             zero     0x20000000   0x640  os_cfg_app.o [1]
+  .bss             zero     0x20000640   0x400  Payload.o [1]
+  .bss             zero     0x20000a40   0x400  PktParser.o [1]
+  .bss             zero     0x20000e40   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001040   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001240   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001440   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001640   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001840   0x200  Prog4.o [1]
+  .bss             zero     0x20001a40   0x110  bsp_int.o [1]
+  .bss             zero     0x20001b50    0xd0  Payload.o [1]
+  .bss             zero     0x20001c20    0xd0  PktParser.o [1]
+  .bss             zero     0x20001cf0    0xd0  Prog4.o [1]
+  .bss             zero     0x20001dc0    0xd0  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20001e90    0xd0  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20001f60    0xd0  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002030    0xd0  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002100    0x68  os_cfg_app.o [1]
+  .bss             zero     0x20002168    0x68  os_cfg_app.o [1]
+  .bss             zero     0x200021d0    0x60  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002230    0x28  Payload.o [1]
+  .bss             zero     0x20002258    0x28  Payload.o [1]
+  .bss             zero     0x20002280    0x28  SerIODriver.o [1]
+  .bss             zero     0x200022a8    0x28  SerIODriver.o [1]
+  .bss             zero     0x200022d0    0x18  Payload.o [1]
+  .bss             zero     0x200022e8    0x18  SerIODriver.o [1]
+  .bss             zero     0x20002300    0x18  SerIODriver.o [1]
+  .bss             zero     0x20002318    0x10  Payload.o [1]
+  .bss             zero     0x20002328    0x10  Payload.o [1]
+  .bss             zero     0x20002338    0x10  cpu_core.o [7]
+  .bss             zero     0x20002348     0x8  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002350     0x4  bsp.o [1]
+  .bss             zero     0x20002354     0x4  SerIODriver.o [1]
+  .bss             zero     0x20002358     0x4  SerIODriver.o [1]
+  .bss             zero     0x2000235c     0x4  SerIODriver.o [1]
+  .bss             zero     0x20002360     0x4  SerIODriver.o [1]
+  .bss             zero     0x20002364     0x4  os_cpu_c.o [9]
+  .bss             zero     0x20002368     0x4  cpu_core.o [7]
+  .bss             zero     0x2000236c     0x4  cpu_core.o [7]
+  .bss             zero     0x20002370     0x4  cpu_core.o [7]
+  .bss             zero     0x20002374     0x4  cpu_core.o [7]
+  .bss             zero     0x20002378     0x4  cpu_core.o [7]
+  .bss             zero     0x2000237c     0x4  cpu_core.o [7]
+  .bss             zero     0x20002380     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002384     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002388     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x2000238c     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002390     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002394     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002398     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x2000239c     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023a0     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023a4     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023a8     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023ac     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023b0     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023b4     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023b8     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023bc     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023c0     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023c4     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023c8     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023cc     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023d0     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023d4     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023d8     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023dc     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023e0     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023e4     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023e8     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023ec     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023f0     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023f4     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023f8     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x200023fc     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002400     0x4  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002404     0x4  os_prio.o [9]
+  .bss             zero     0x20002408     0x4  xfail_s.o [3]
+  .bss             zero     0x2000240c     0x2  cpu_core.o [7]
+  .bss             zero     0x2000240e     0x2  cpu_core.o [7]
+  .bss             zero     0x20002410     0x2  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002412     0x2  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002414     0x2  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002416     0x2  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002418     0x2  __dbg_uCOS-III.o [9]
+  .bss             zero     0x2000241a     0x2  __dbg_uCOS-III.o [9]
+  .bss             zero     0x2000241c     0x1  PktParser.o [1]
+  .bss             zero     0x2000241d     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x2000241e     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x2000241f     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002420     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002421     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002422     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002423     0x1  __dbg_uCOS-III.o [9]
+  .bss             zero     0x20002424     0x1  __dbg_uCOS-III.o [9]
+                          - 0x20002425  0x2425
+
+"P3-P4", part 2 of 2:                   0x1000
+  CSTACK                    0x20002428  0x1000  <Block>
+    CSTACK         uninit   0x20002428  0x1000  <Block tail>
+                          - 0x20003428  0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2425:
+          0x20000000  0x2425
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj: [1]
+    BfrPair.o               256
+    Buffer.o                236
+    Error.o                 104      280
+    Payload.o               720      656    1 368
+    PktParser.o             556       16    1 233
+    Prog4.o                 224       12      720
+    SerIODriver.o           552       28      144
+    app_vect.o               14      336
+    bsp.o                   360                 4
+    bsp_int.o               766               272
+    bsp_periph.o            144
+    bsp_ser.o               172
+    os_cfg_app.o            264      121    4 368
+    os_dbg.o                552      352
+    stm32f10x_flash.o        68
+    stm32f10x_gpio.o        356
+    stm32f10x_rcc.o       1 152       20
+    stm32f10x_usart.o       232
+    ---------------------------------------------
+    Total:                6 728    1 821    8 109
+
+command line: [2]
+    ---------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                   6
+    exit.o                    4
+    low_level_init.o          4
+    vsnprint.o               60
+    xfail_s.o                68                 4
+    xprintffull_nomb.o    3 614
+    xsnprout.o               26
+    ---------------------------------------------
+    Total:                3 782                 4
+
+m7M_tl.a: [4]
+    DblAdd.o                360
+    DblCmpGe.o               46
+    DblCmpLe.o               46
+    DblDiv.o                582
+    DblMul.o                418
+    DblSub.o                226
+    DblToS32.o               58
+    DblToU32.o               40
+    S32ToDbl.o               34
+    U32ToDbl.o               26
+    frexp.o                 112
+    ldexp.o                 314
+    ---------------------------------------------
+    Total:                2 262
+
+rt7M_tl.a: [5]
+    ABImemcpy.o             166
+    I64DivMod.o             558
+    I64DivZer.o               2
+    cexit.o                  10
+    cmain.o                  30
+    cstartup_M.o             12
+    data_init.o              40
+    memchr.o                 88
+    strchr.o                 22
+    strlen.o                 54
+    zero_init3.o             64
+    ---------------------------------------------
+    Total:                1 046
+
+shb_l.a: [6]
+    exit.o                   20
+    ---------------------------------------------
+    Total:                   20
+
+uC-CPU-CM3-IAR.a: [7]
+    cpu_a.o                  42
+    cpu_c.o                 332
+    cpu_core.o              472                44
+    ---------------------------------------------
+    Total:                  846                44
+
+uC-LIB-CM3-IAR.a: [8]
+    lib_mem.o               148
+    ---------------------------------------------
+    Total:                  148
+
+uCOS-III-CM3-IAR.a: [9]
+    __dbg_uCOS-III.o                        1 088
+    os_core.o             2 982       40
+    os_cpu_a.o              148
+    os_cpu_c.o              620                 4
+    os_flag.o                28
+    os_mem.o                 28
+    os_msg.o                252
+    os_mutex.o               28
+    os_prio.o               164                 4
+    os_q.o                   28
+    os_sem.o                970
+    os_stat.o             1 012       20
+    os_task.o             2 156        8
+    os_tick.o             1 288       20
+    os_time.o               284
+    os_tmr.o                832       24
+    ---------------------------------------------
+    Total:               10 820      112    1 096
+
+    Linker created                    16    4 096
+-------------------------------------------------
+    Grand Total:         25 652    1 949   13 349
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0800697c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800698c          --   Gb  - Linker created -
+?main                   0x080069ed         Code  Gb  cmain.o [5]
+ADCPrescTable           0x08006b94    0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x08006abc   0x10  Data  Lc  stm32f10x_rcc.o [1]
+App_BusFault_ISR        0x08000fa3    0x2  Code  Lc  app_vect.o [1]
+App_Fault_ISR           0x08000fa1    0x2  Code  Lc  app_vect.o [1]
+App_MemFault_ISR        0x08000fa7    0x2  Code  Lc  app_vect.o [1]
+App_NMI_ISR             0x08000f9f    0x2  Code  Lc  app_vect.o [1]
+App_Reserved_ISR        0x08000fab    0x2  Code  Lc  app_vect.o [1]
+App_Spurious_ISR        0x08000fa9    0x2  Code  Lc  app_vect.o [1]
+App_UsageFault_ISR      0x08000fa5    0x2  Code  Lc  app_vect.o [1]
+BSP_CPU_ClkFreq         0x08004b8b   0x10  Code  Gb  bsp.o [1]
+BSP_CPU_ClkFreq_MHz     0x20002350    0x4  Data  Gb  bsp.o [1]
+BSP_Init                0x08004abd   0xce  Code  Gb  bsp.o [1]
+BSP_IntDisAll           0x08004dd5    0x8  Code  Gb  bsp_int.o [1]
+BSP_IntEn               0x08004ddd   0x14  Code  Gb  bsp_int.o [1]
+BSP_IntHandler          0x08005093   0x38  Code  Lc  bsp_int.o [1]
+BSP_IntHandlerADC1_2    0x08004ee5    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN1_RX0  0x08004ef9    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN1_RX1  0x08004f03    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN1_SCE  0x08004f0d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN1_TX   0x08004eef    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN2_RX0  0x0800506b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN2_RX1  0x08005075    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN2_SCE  0x0800507f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN2_TX   0x08005061    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH1  0x08004e9f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH2  0x08004ea9    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH3  0x08004eb3    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH4  0x08004ebd    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH5  0x08004ec7    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH6  0x08004ed1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA1_CH7  0x08004edb    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA2_CH1  0x0800501b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA2_CH2  0x08005025    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA2_CH3  0x0800502f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA2_CH4  0x08005039    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA2_CH5  0x08005043    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDummy     0x080050d1    0x2  Code  Lc  bsp_int.o [1]
+BSP_IntHandlerETH       0x0800504d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerETHWakeup
+                        0x08005057    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI0     0x08004e6d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI1     0x08004e77    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI15_10
+                        0x08004fc1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI2     0x08004e81    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI3     0x08004e8b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI4     0x08004e95    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI9_5   0x08004f17    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerFLASH     0x08004e59    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C1_ER   0x08004f71    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C1_EV   0x08004f67    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C2_ER   0x08004f85    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C2_EV   0x08004f7b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerOTG       0x08005089    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerPVD       0x08004e3b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerRCC       0x08004e63    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerRTC       0x08004e4f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerRTCAlarm  0x08004fcb    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSPI1      0x08004f8f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSPI2      0x08004f99    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSPI3      0x08004fe9    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTAMPER    0x08004e45    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM1_BRK  0x08004f21    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM1_CC   0x08004f3f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM1_TRG_COM
+                        0x08004f35    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM1_UP   0x08004f2b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM2      0x08004f49    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM3      0x08004f53    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM4      0x08004f5d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM5      0x08004fdf    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM6      0x08005007    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM7      0x08005011    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSART1    0x08004fa3    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSART2    0x08004fad    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSART3    0x08004fb7    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSART4    0x08004ff3    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSART5    0x08004ffd    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSBWakeUp
+                        0x08004fd5    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerWWDG      0x08004e31    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntInit             0x08004e19   0x18  Code  Gb  bsp_int.o [1]
+BSP_IntVectSet          0x08004df1   0x28  Code  Gb  bsp_int.o [1]
+BSP_IntVectTbl          0x20001a40  0x110  Data  Lc  bsp_int.o [1]
+BSP_LED_Init            0x08004b9b   0x28  Code  Lc  bsp.o [1]
+BSP_PeriphEn            0x08006471   0x84  Code  Gb  bsp_periph.o [1]
+BSP_Ser_Init            0x080063c5   0xa4  Code  Gb  bsp_ser.o [1]
+BSP_StatusInit          0x08004bc3   0x1e  Code  Lc  bsp.o [1]
+BfrAddByte              0x08005f1d   0x3c  Code  Gb  Buffer.o [1]
+BfrClose                0x08005ee5    0x6  Code  Gb  Buffer.o [1]
+BfrClosed               0x08005ed5   0x10  Code  Gb  Buffer.o [1]
+BfrEmpty                0x08005f07   0x16  Code  Gb  Buffer.o [1]
+BfrFull                 0x08005ef1   0x16  Code  Gb  Buffer.o [1]
+BfrInit                 0x08005ea9   0x1a  Code  Gb  Buffer.o [1]
+BfrOpen                 0x08005eeb    0x6  Code  Gb  Buffer.o [1]
+BfrPairInit             0x08005b19   0x2a  Code  Gb  BfrPair.o [1]
+BfrPairSwap             0x08005c05   0x14  Code  Gb  BfrPair.o [1]
+BfrRemByte              0x08005f59   0x3c  Code  Gb  Buffer.o [1]
+BfrReset                0x08005ec3   0x12  Code  Gb  Buffer.o [1]
+CPU_CntLeadZeros        0x0800483b         Code  Gb  cpu_a.o [7]
+CPU_Init                0x08004851   0x10  Code  Gb  cpu_core.o [7]
+CPU_IntDis              0x08004825         Code  Gb  cpu_a.o [7]
+CPU_IntDisMeasCtr       0x2000240c    0x2  Data  Gb  cpu_core.o [7]
+CPU_IntDisMeasInit      0x0800496f   0x7a  Code  Lc  cpu_core.o [7]
+CPU_IntDisMeasMaxCalc   0x080049e9   0x1a  Code  Lc  cpu_core.o [7]
+CPU_IntDisMeasMaxCurGet
+                        0x080048a7   0x24  Code  Gb  cpu_core.o [7]
+CPU_IntDisMeasMaxCurReset
+                        0x08004885   0x22  Code  Gb  cpu_core.o [7]
+CPU_IntDisMeasMaxCur_cnts
+                        0x20002378    0x4  Data  Gb  cpu_core.o [7]
+CPU_IntDisMeasMaxGet    0x080048cb   0x24  Code  Gb  cpu_core.o [7]
+CPU_IntDisMeasMax_cnts  0x2000237c    0x4  Data  Gb  cpu_core.o [7]
+CPU_IntDisMeasOvrhd_cnts
+                        0x20002374    0x4  Data  Gb  cpu_core.o [7]
+CPU_IntDisMeasStart     0x080048ef   0x28  Code  Gb  cpu_core.o [7]
+CPU_IntDisMeasStart_cnts
+                        0x2000236c    0x4  Data  Gb  cpu_core.o [7]
+CPU_IntDisMeasStop      0x08004917   0x42  Code  Gb  cpu_core.o [7]
+CPU_IntDisMeasStop_cnts
+                        0x20002370    0x4  Data  Gb  cpu_core.o [7]
+CPU_IntDisNestCtr       0x2000240e    0x2  Data  Gb  cpu_core.o [7]
+CPU_IntEn               0x08004829         Code  Gb  cpu_a.o [7]
+CPU_IntSrcEn            0x080056fd  0x13c  Code  Gb  cpu_c.o [7]
+CPU_Name                0x20002338   0x10  Data  Gb  cpu_core.o [7]
+CPU_NameClr             0x08004861   0x24  Code  Gb  cpu_core.o [7]
+CPU_NameInit            0x08004959    0x8  Code  Lc  cpu_core.o [7]
+CPU_RevBits             0x08004841         Code  Gb  cpu_a.o [7]
+CPU_SR_Restore          0x08004835         Code  Gb  cpu_a.o [7]
+CPU_SR_Save             0x0800482d         Code  Gb  cpu_a.o [7]
+CPU_TS_Init             0x08004961    0xe  Code  Lc  cpu_core.o [7]
+CPU_TS_TmrFreq_Hz       0x20002368    0x4  Data  Gb  cpu_core.o [7]
+CPU_TS_TmrInit          0x08004be1   0x20  Code  Gb  bsp.o [1]
+CPU_TS_TmrRd            0x08004c01    0x6  Code  Gb  bsp.o [1]
+CPU_WaitForExcept       0x0800484b         Code  Gb  cpu_a.o [7]
+CPU_WaitForInt          0x08004847         Code  Gb  cpu_a.o [7]
+CSTACK$$Base            0x20002428          --   Gb  - Linker created -
+CSTACK$$Limit           0x20003428          --   Gb  - Linker created -
+ClosePutBfr             0x08005ba3   0x16  Code  Gb  BfrPair.o [1]
+CreateParserTask        0x08005fd1   0x46  Code  Gb  PktParser.o [1]
+CreatePayloadTask       0x0800585d   0x78  Code  Gb  Payload.o [1]
+Errortp                 0x08005c19   0x68  Code  Gb  Error.o [1]
+FLASH_PrefetchBufferCmd
+                        0x08005575   0x20  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x08005555   0x20  Code  Gb  stm32f10x_flash.o [1]
+GPIO_Init               0x08005599   0xec  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08005685   0x72  Code  Gb  stm32f10x_gpio.o [1]
+GetBfrAddr              0x08005b65   0x10  Code  Gb  BfrPair.o [1]
+GetBfrClosed            0x08005b8b   0x18  Code  Gb  BfrPair.o [1]
+GetBfrRemByte           0x08005bed   0x18  Code  Gb  BfrPair.o [1]
+GetByte                 0x08005dd5   0x42  Code  Gb  SerIODriver.o [1]
+ISR                     0x08005e7f   0x2a  Code  Gb  SerIODriver.o [1]
+Init                    0x08006351   0x60  Code  Lc  Prog4.o [1]
+InitSerIO               0x08005c81   0x54  Code  Gb  SerIODriver.o [1]
+LoadInt                 0x08000303   0x7a  Code  Lc  xprintffull_nomb.o [3]
+Mem_Clr                 0x08004d41   0x12  Code  Gb  lib_mem.o [8]
+Mem_Set                 0x08004d53   0x82  Code  Gb  lib_mem.o [8]
+OSCfg_DataSizeRAM       0x08006b84    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStk            0x20001040  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkBasePtr     0x08006b28    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkSize        0x08006b2c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkSizeRAM     0x08006b30    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStk       0x20000e40  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkBasePtr
+                        0x08006b18    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkLimit  0x08006b1c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkSize   0x08006b20    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkSizeRAM
+                        0x08006b24    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_Init              0x0800471d  0x108  Code  Gb  os_cfg_app.o [1]
+OSCfg_MsgPool           0x20000000  0x640  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolBasePtr    0x08006b38    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolSize       0x08001026    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolSizeRAM    0x08006b34    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskPrio      0x08006ba8    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskRate_Hz   0x08006b3c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskStk       0x20001240  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskStkBasePtr
+                        0x08006b40    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskStkLimit  0x08006b44    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskStkSize   0x08006b48    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StatTaskStkSizeRAM
+                        0x08006b4c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StkSizeMin        0x08006b50    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickRate_Hz       0x08006b54    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskPrio      0x08006ba9    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStk       0x20001440  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkBasePtr
+                        0x08006b58    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkLimit  0x08006b5c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkSize   0x08006b60    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkSizeRAM
+                        0x08006b64    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheel         0x20002100   0x68  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheelSize     0x080012ae    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheelSizeRAM  0x08006b68    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskPrio       0x08006baa    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskRate_Hz    0x08006b6c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStk        0x20001640  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkBasePtr
+                        0x08006b70    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkLimit   0x08006b74    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkSize    0x08006b78    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkSizeRAM
+                        0x08006b7c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheel          0x20002168   0x68  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheelSize      0x08001452    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheelSizeRAM   0x08006b80    0x4  Data  Gb  os_cfg_app.o [1]
+OSCtxSw                 0x08004a47         Code  Gb  os_cpu_a.o [9]
+OSDbg_AppHooksEn        0x08006bac    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_ArgChkEn          0x08006bab    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_CalledFromISRChkEn
+                        0x08006bad    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_DataSize          0x08006b90    0x4  Data  Gb  os_dbg.o [1]
+OSDbg_DbgEn             0x080014fa    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_EndiannessTest    0x08006b88    0x4  Data  Gb  os_dbg.o [1]
+OSDbg_FlagDelEn         0x08006baf    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_FlagEn            0x08006bae    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_FlagGrp           0x080068e0   0x28  Data  Gb  os_dbg.o [1]
+OSDbg_FlagGrpSize       0x0800159a    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_FlagModeClrEn     0x08006bb0    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_FlagPendAbortEn   0x08006bb1    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_FlagWidth         0x080015ca    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_ISRPostDeferredEn
+                        0x08006bb2    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_Mem               0x0800698c   0x20  Data  Gb  os_dbg.o [1]
+OSDbg_MemEn             0x08006bb3    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MemSize           0x08001706    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_MsgEn             0x08006bb4    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MsgPoolSize       0x08001766    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_MsgQSize          0x0800184a    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_MsgSize           0x08001742    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_Mutex             0x08006888   0x2c  Data  Gb  os_dbg.o [1]
+OSDbg_MutexDelEn        0x08006bb6    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MutexEn           0x08006bb5    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MutexPendAbortEn  0x08006bb7    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MutexSize         0x08001a92    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_ObjTypeChkEn      0x08006bb8    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_PendDataSize      0x08001ade    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PendListSize      0x08002802    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PendMultiEn       0x08006bb9    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_PendObjSize       0x08003f46    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PrioMax           0x0800484e    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PrioTblSize       0x080050d2    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PtrSize           0x08006a12    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_Q                 0x08006858   0x30  Data  Gb  os_dbg.o [1]
+OSDbg_QDelEn            0x08006bbb    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QEn               0x08006bba    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QFlushEn          0x08006bbc    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QPendAbortEn      0x08006bbd    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QSize             0x08006a1e    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_RdyList           0x08006b9a    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_RdyListSize       0x08006b8c    0x4  Data  Gb  os_dbg.o [1]
+OSDbg_SchedRoundRobinEn
+                        0x08006bbe    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_Sem               0x08006908   0x28  Data  Gb  os_dbg.o [1]
+OSDbg_SemDelEn          0x08006bc0    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_SemEn             0x08006bbf    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_SemPendAbortEn    0x08006bc1    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_SemSetEn          0x08006bc2    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_SemSize           0x08006b98    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_StatTaskEn        0x08006bc4    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_StatTaskStkChkEn  0x08006bc5    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_StkWidth          0x08006bc3    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TCBSize           0x08006b9e    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TaskChangePrioEn  0x08006bc6    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskDelEn         0x08006bc7    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskProfileEn     0x08006bca    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskQEn           0x08006bc8    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskQPendAbortEn  0x08006bc9    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskRegTblSize    0x08006b9c    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TaskSemPendAbortEn
+                        0x08006bcb    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskSuspendEn     0x08006bcc    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TickSpokeSize     0x08006ba0    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TimeDlyHMSMEn     0x08006bcd    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TimeDlyResumeEn   0x08006bce    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_Tmr               0x08006764   0x34  Data  Gb  os_dbg.o [1]
+OSDbg_TmrDelEn          0x08006bd0    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TmrEn             0x08006bcf    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TmrSize           0x08006ba2    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TmrSpokeSize      0x08006ba4    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_VersionNbr        0x08006ba6    0x2  Data  Gb  os_dbg.o [1]
+OSFlagDbgListPtr        0x200023a4    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSFlagQty               0x20002410    0x2  Data  Gb  __dbg_uCOS-III.o [9]
+OSIdleTaskCtr           0x2000239c    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSIdleTaskHook          0x080044b1   0x12  Code  Gb  os_cpu_c.o [9]
+OSIdleTaskTCB           0x20001dc0   0xd0  Data  Gb  __dbg_uCOS-III.o [9]
+OSInit                  0x08001c5d  0x14c  Code  Gb  os_core.o [9]
+OSInitHook              0x080044c3   0x30  Code  Gb  os_cpu_c.o [9]
+OSIntCtxSw              0x08004a4f         Code  Gb  os_cpu_a.o [9]
+OSIntDisTimeMax         0x200023a0    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSIntEnter              0x08001da9   0x24  Code  Gb  os_core.o [9]
+OSIntExit               0x08001dcd  0x104  Code  Gb  os_core.o [9]
+OSIntNestingCtr         0x2000241d    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSMemDbgListPtr         0x200023a8    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSMemQty                0x20002412    0x2  Data  Gb  __dbg_uCOS-III.o [9]
+OSMsgPool               0x20002348    0x8  Data  Gb  __dbg_uCOS-III.o [9]
+OSMutexDbgListPtr       0x200023ac    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSMutexQty              0x20002414    0x2  Data  Gb  __dbg_uCOS-III.o [9]
+OSPrioCur               0x2000241f    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSPrioHighRdy           0x20002420    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSPrioTbl               0x20002404    0x4  Data  Gb  os_prio.o [9]
+OSQDbgListPtr           0x200023b0    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSQQty                  0x20002416    0x2  Data  Gb  __dbg_uCOS-III.o [9]
+OSRdyList               0x200021d0   0x60  Data  Gb  __dbg_uCOS-III.o [9]
+OSRunning               0x2000241e    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSSched                 0x08001ed1   0xca  Code  Gb  os_core.o [9]
+OSSchedLock             0x08001f9b   0x58  Code  Gb  os_core.o [9]
+OSSchedLockNestingCtr   0x20002421    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSSchedLockTimeBegin    0x200023b4    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSSchedLockTimeMax      0x200023b8    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSSchedLockTimeMaxCur   0x200023bc    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSSchedRoundRobinDfltTimeQuanta
+                        0x200023c0    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSSchedRoundRobinEn     0x20002422    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSSchedUnlock           0x08001ff3   0x78  Code  Gb  os_core.o [9]
+OSSemCreate             0x08003b7d   0xb0  Code  Gb  os_sem.o [9]
+OSSemDbgListPtr         0x200023c4    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSSemPend               0x08003c2d  0x1a2  Code  Gb  os_sem.o [9]
+OSSemPost               0x08003dcf   0x46  Code  Gb  os_sem.o [9]
+OSSemQty                0x20002418    0x2  Data  Gb  __dbg_uCOS-III.o [9]
+OSStart                 0x0800206b   0x64  Code  Gb  os_core.o [9]
+OSStartHighRdy          0x08004a29         Code  Gb  os_cpu_a.o [9]
+OSStatReset             0x0800361d   0xce  Code  Gb  os_stat.o [9]
+OSStatTaskCPUUsage      0x20002423    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSStatTaskCPUUsageInit  0x080036eb   0xa4  Code  Gb  os_stat.o [9]
+OSStatTaskCtr           0x200023c8    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSStatTaskCtrMax        0x200023cc    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSStatTaskCtrRun        0x200023d0    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSStatTaskHook          0x080044f3   0x12  Code  Gb  os_cpu_c.o [9]
+OSStatTaskRdy           0x20002424    0x1  Data  Gb  __dbg_uCOS-III.o [9]
+OSStatTaskTCB           0x20001e90   0xd0  Data  Gb  __dbg_uCOS-III.o [9]
+OSStatTaskTimeMax       0x200023d4    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTCBCurPtr             0x200023fc    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTCBHighRdyPtr         0x20002400    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTaskCreate            0x080028a9  0x1c2  Code  Gb  os_task.o [9]
+OSTaskCreateHook        0x08004505   0x16  Code  Gb  os_cpu_c.o [9]
+OSTaskCtxSwCtr          0x200023d8    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTaskDbgListPtr        0x200023dc    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTaskDel               0x08002a6b  0x100  Code  Gb  os_task.o [9]
+OSTaskDelHook           0x0800451b   0x16  Code  Gb  os_cpu_c.o [9]
+OSTaskQty               0x2000241a    0x2  Data  Gb  __dbg_uCOS-III.o [9]
+OSTaskReturnHook        0x08004531   0x16  Code  Gb  os_cpu_c.o [9]
+OSTaskSemPend           0x08002b6b  0x1be  Code  Gb  os_task.o [9]
+OSTaskSemPost           0x08002d29   0x26  Code  Gb  os_task.o [9]
+OSTaskStkChk            0x08002d4f   0xc8  Code  Gb  os_task.o [9]
+OSTaskStkInit           0x08004547   0x88  Code  Gb  os_cpu_c.o [9]
+OSTaskSwHook            0x080045cf   0x98  Code  Gb  os_cpu_c.o [9]
+OSTickCtr               0x200023e0    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTickTaskTCB           0x20001f60   0xd0  Data  Gb  __dbg_uCOS-III.o [9]
+OSTickTaskTimeMax       0x200023e4    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTimeDly               0x08004c25   0xb0  Code  Gb  os_time.o [9]
+OSTimeTick              0x08004cd5   0x46  Code  Gb  os_time.o [9]
+OSTimeTickHook          0x08004667   0x12  Code  Gb  os_cpu_c.o [9]
+OSTmrDbgListPtr         0x200023e8    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTmrTaskTCB            0x20002030   0xd0  Data  Gb  __dbg_uCOS-III.o [9]
+OSTmrTaskTimeMax        0x200023ec    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTmrTickCtr            0x200023f0    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTmrUpdateCnt          0x200023f4    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OSTmrUpdateCtr          0x200023f8    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppIdleTaskHookPtr   0x2000238c    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppStatTaskHookPtr   0x20002390    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppTaskCreateHookPtr
+                        0x20002380    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppTaskDelHookPtr    0x20002384    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppTaskReturnHookPtr
+                        0x20002388    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppTaskSwHookPtr     0x20002394    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_AppTimeTickHookPtr   0x20002398    0x4  Data  Gb  __dbg_uCOS-III.o [9]
+OS_CPU_ExceptStkBase    0x20002364    0x4  Data  Gb  os_cpu_c.o [9]
+OS_CPU_PendSVHandler    0x08004a57         Code  Gb  os_cpu_a.o [9]
+OS_CPU_SysTickHandler   0x08004679   0x2e  Code  Gb  os_cpu_c.o [9]
+OS_CPU_SysTickInit      0x080046a7   0x2e  Code  Gb  os_cpu_c.o [9]
+OS_Dbg_Init             0x08004289  0x228  Code  Gb  os_dbg.o [1]
+OS_FlagInit             0x08003a11   0x12  Code  Gb  os_flag.o [9]
+OS_IdleTask             0x080020cf   0x3e  Code  Gb  os_core.o [9]
+OS_IdleTaskInit         0x0800210d   0x52  Code  Gb  os_core.o [9]
+OS_MemInit              0x08003a2d   0x12  Code  Gb  os_mem.o [9]
+OS_MsgPoolCreate        0x08003a49   0x42  Code  Gb  os_msg.o [9]
+OS_MsgPoolInit          0x08003a8b   0x4c  Code  Gb  os_msg.o [9]
+OS_MsgQFreeAll          0x08003ad7   0x4c  Code  Gb  os_msg.o [9]
+OS_MsgQInit             0x08003b23   0x14  Code  Gb  os_msg.o [9]
+OS_MutexInit            0x08003b45   0x12  Code  Gb  os_mutex.o [9]
+OS_Pend                 0x0800215f   0x76  Code  Gb  os_core.o [9]
+OS_PendDataInit         0x080021d5   0x36  Code  Gb  os_core.o [9]
+OS_PendDbgNameAdd       0x0800220b   0x4c  Code  Gb  os_core.o [9]
+OS_PendDbgNameRemove    0x08002257   0x28  Code  Gb  os_core.o [9]
+OS_PendListInit         0x08002285    0xe  Code  Gb  os_core.o [9]
+OS_PendListInsertPrio   0x08002293   0x7a  Code  Gb  os_core.o [9]
+OS_PendListRemove       0x0800230d   0x38  Code  Gb  os_core.o [9]
+OS_PendListRemove1      0x08002345   0x54  Code  Gb  os_core.o [9]
+OS_Post                 0x08002399   0xdc  Code  Gb  os_core.o [9]
+OS_Post1                0x08002475   0x2c  Code  Gb  os_core.o [9]
+OS_PrioGetHighest       0x0800281d   0x26  Code  Gb  os_prio.o [9]
+OS_PrioInit             0x08002805   0x18  Code  Gb  os_prio.o [9]
+OS_PrioInsert           0x08002843   0x30  Code  Gb  os_prio.o [9]
+OS_PrioRemove           0x08002873   0x30  Code  Gb  os_prio.o [9]
+OS_QInit                0x08003b61   0x12  Code  Gb  os_q.o [9]
+OS_RdyListInit          0x080024a1   0x24  Code  Gb  os_core.o [9]
+OS_RdyListInsert        0x080024c5   0x28  Code  Gb  os_core.o [9]
+OS_RdyListInsertHead    0x080024f1   0x42  Code  Gb  os_core.o [9]
+OS_RdyListInsertTail    0x0800254d   0x40  Code  Gb  os_core.o [9]
+OS_RdyListMoveHeadToTail
+                        0x080025b5   0x4a  Code  Gb  os_core.o [9]
+OS_RdyListRemove        0x080025ff   0x62  Code  Gb  os_core.o [9]
+OS_SchedLockTimeMeasStart
+                        0x08002661   0x14  Code  Gb  os_core.o [9]
+OS_SchedLockTimeMeasStop
+                        0x08002675   0x30  Code  Gb  os_core.o [9]
+OS_SchedRoundRobin      0x080026ad   0xac  Code  Gb  os_core.o [9]
+OS_SemDbgListAdd        0x08003e15   0x28  Code  Gb  os_sem.o [9]
+OS_SemInit              0x08003e3d   0x12  Code  Gb  os_sem.o [9]
+OS_SemPost              0x08003e7d   0xca  Code  Gb  os_sem.o [9]
+OS_StatTask             0x0800378f  0x19e  Code  Gb  os_stat.o [9]
+OS_StatTaskInit         0x0800392d   0x8c  Code  Gb  os_stat.o [9]
+OS_TaskBlock            0x080027ad   0x3c  Code  Gb  os_core.o [9]
+OS_TaskDbgListAdd       0x08002e21   0x34  Code  Gb  os_task.o [9]
+OS_TaskDbgListRemove    0x08002e55   0x5a  Code  Gb  os_task.o [9]
+OS_TaskInit             0x08002eb5   0x18  Code  Gb  os_task.o [9]
+OS_TaskInitTCB          0x08002ed9  0x126  Code  Gb  os_task.o [9]
+OS_TaskRdy              0x080027e9   0x1a  Code  Gb  os_core.o [9]
+OS_TaskReturn           0x0800300d   0x14  Code  Gb  os_task.o [9]
+OS_TaskSemPost          0x08003021   0xda  Code  Gb  os_task.o [9]
+OS_TickListInit         0x080031b1   0x2a  Code  Gb  os_tick.o [9]
+OS_TickListInsert       0x080031db  0x1ee  Code  Gb  os_tick.o [9]
+OS_TickListRemove       0x080033c9   0x52  Code  Gb  os_tick.o [9]
+OS_TickListResetPeak    0x0800341b   0x1e  Code  Gb  os_tick.o [9]
+OS_TickListUpdate       0x08003439  0x1ae  Code  Gb  os_tick.o [9]
+OS_TickTask             0x08003115   0x28  Code  Gb  os_tick.o [9]
+OS_TickTaskInit         0x0800313d   0x74  Code  Gb  os_tick.o [9]
+OS_TmrInit              0x08003f49   0xda  Code  Gb  os_tmr.o [9]
+OS_TmrLink              0x08004023   0xe2  Code  Gb  os_tmr.o [9]
+OS_TmrResetPeak         0x08004105   0x1e  Code  Gb  os_tmr.o [9]
+OS_TmrTask              0x0800417d   0xc4  Code  Gb  os_tmr.o [9]
+OS_TmrUnlink            0x08004123   0x5a  Code  Gb  os_tmr.o [9]
+OpenGetBfr              0x08005bb9   0x18  Code  Gb  BfrPair.o [1]
+PBfr0Space              0x20002318   0x10  Data  Gb  Payload.o [1]
+PBfr1Space              0x20002328   0x10  Data  Gb  Payload.o [1]
+ParsePkt                0x08006019  0x1c8  Code  Gb  PktParser.o [1]
+ParsePkt::ParseState    0x2000241c    0x1  Data  Lc  PktParser.o [1]
+PayloadInit             0x08005849   0x12  Code  Gb  Payload.o [1]
+PayloadStk              0x20000640  0x400  Data  Lc  Payload.o [1]
+PayloadTCB              0x20001b50   0xd0  Data  Lc  Payload.o [1]
+PayloadTask             0x080058d5  0x1f0  Code  Gb  Payload.o [1]
+PutBfrAddByte           0x08005bd1   0x1c  Code  Gb  BfrPair.o [1]
+PutBfrAddr              0x08005b59    0xc  Code  Gb  BfrPair.o [1]
+PutBfrClosed            0x08005b75   0x16  Code  Gb  BfrPair.o [1]
+PutBfrReset             0x08005b43   0x16  Code  Gb  BfrPair.o [1]
+PutByte                 0x08005d29   0x4a  Code  Gb  SerIODriver.o [1]
+RCC_ADCCLKConfig        0x080052cf   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080054a1   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_DeInit              0x080050d5   0x5e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x080052ed  0x1b4  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x080054c1   0x46  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource     0x0800527f    0xc  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x0800528b   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x08005133   0x56  Code  Gb  stm32f10x_rcc.o [1]
+RCC_OTGFSCLKConfig      0x080052e5    0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK1Config         0x080052a1   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x080052b7   0x18  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLL1Cmd             0x08005219    0xc  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLL1Config          0x080051fb   0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLL2Cmd             0x0800523b    0xc  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLL2Config          0x08005225   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLL3Cmd             0x0800525d    0xc  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLL3Config          0x08005247   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PREDIV1Config       0x080051c5   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PREDIV2Config       0x080051e5   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x08005269   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x08005189   0x3c  Code  Gb  stm32f10x_rcc.o [1]
+Region$$Table$$Base     0x0800697c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800698c          --   Gb  - Linker created -
+SerPrintf               0x08005e4d   0x32  Code  Gb  SerIODriver.o [1]
+ServiceRx               0x08005d75   0x5e  Code  Gb  SerIODriver.o [1]
+ServiceTx               0x08005cd5   0x54  Code  Gb  SerIODriver.o [1]
+USART_ClockInit         0x080062a5   0x22  Code  Gb  stm32f10x_usart.o [1]
+USART_Cmd               0x080062c7   0x1e  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x080061fd   0xa4  Code  Gb  stm32f10x_usart.o [1]
+_GenldFullNoMb          0x08000c6f  0x274  Code  Lc  xprintffull_nomb.o [3]
+_LdtobFullNoMb          0x08000845  0x3fe  Code  Lc  xprintffull_nomb.o [3]
+_LitobFullNoMb          0x080006ed  0x112  Code  Lc  xprintffull_nomb.o [3]
+_PrintfFullNoMb         0x08000151  0x1a4  Code  Gb  xprintffull_nomb.o [3]
+_PutcharsFullNoMb       0x08000ee3   0x2e  Code  Lc  xprintffull_nomb.o [3]
+_PutfldFullNoMb         0x0800037d  0x264  Code  Lc  xprintffull_nomb.o [3]
+_PuttxtFullNoMb         0x080005e1  0x10c  Code  Lc  xprintffull_nomb.o [3]
+_SNProut                0x08000f6f   0x1a  Code  Gb  xsnprout.o [3]
+__aeabi_cdcmple         0x0800156d         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0800159d         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x08001709         Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x08001a95         Code  Gb  DblToU32.o [4]
+__aeabi_ddiv            0x0800184d         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x080012b1         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x08001769         Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x08001745         Code  Gb  S32ToDbl.o [4]
+__aeabi_ldiv0           0x08001add         Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0x08001455         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08001475         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x08001475         Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2d            0x08001abd         Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x08001081         Code  Gb  I64DivMod.o [5]
+__cmain                 0x080069ed         Code  Gb  cmain.o [5]
+__exit                  0x08001c49   0x14  Code  Gb  exit.o [6]
+__iar_Fail_s            0x08000fad   0x1e  Code  Gb  xfail_s.o [3]
+__iar_Memchr            0x08001029         Code  Gb  memchr.o [5]
+__iar_Strchr            0x08000f89         Code  Gb  strchr.o [5]
+__iar_dadd              0x08001779         Code  Gb  DblSub.o [4]
+__iar_data_init3        0x08006931   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x08001ae1         Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x08001af3         Code  Gb  DblAdd.o [4]
+__iar_frexp             0x08001509         Code  Gb  frexp.o [4]
+__iar_frexp64           0x080014fd         Code  Gb  frexp.o [4]
+__iar_frexpl            0x08001509         Code  Gb  frexp.o [4]
+__iar_ldexp64           0x080015cd         Code  Gb  ldexp.o [4]
+__iar_program_start     0x08006afd         Code  Gb  cstartup_M.o [5]
+__iar_scalbln64         0x080015cd         Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x080015cd         Code  Gb  ldexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x080066b5   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08006a0b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000  0x150  Data  Gb  app_vect.o [1]
+_call_main              0x080069f9         Code  Gb  cmain.o [5]
+_exit                   0x08006a15         Code  Gb  cexit.o [5]
+_main                   0x08006a07         Code  Gb  cmain.o [5]
+abort                   0x08001ad7    0x6  Code  Gb  abort.o [3]
+closedIBfrs             0x200022a8   0x28  Data  Gb  SerIODriver.o [1]
+closedPayloadBfrs       0x20002258   0x28  Data  Gb  Payload.o [1]
+exit                    0x08006a0f    0x4  Code  Gb  exit.o [3]
+frexp                   0x080014fd         Code  Gb  frexp.o [4]
+frexpl                  0x080014fd         Code  Gb  frexp.o [4]
+iBfr0Space              0x20002354    0x4  Data  Lc  SerIODriver.o [1]
+iBfr1Space              0x20002358    0x4  Data  Lc  SerIODriver.o [1]
+iBfrPair                0x200022e8   0x18  Data  Lc  SerIODriver.o [1]
+initStk                 0x20001840  0x200  Data  Lc  Prog4.o [1]
+initTCB                 0x20001cf0   0xd0  Data  Lc  Prog4.o [1]
+ldexp                   0x080015cd         Code  Gb  ldexp.o [4]
+ldexpl                  0x080015cd         Code  Gb  ldexp.o [4]
+main                    0x080062e5   0x6a  Code  Gb  Prog4.o [1]
+memchr                  0x08001029         Code  Gb  memchr.o [5]
+oBfr0Space              0x2000235c    0x4  Data  Lc  SerIODriver.o [1]
+oBfr1Space              0x20002360    0x4  Data  Lc  SerIODriver.o [1]
+oBfrPair                0x20002300   0x18  Data  Lc  SerIODriver.o [1]
+openOBfrs               0x20002280   0x28  Data  Gb  SerIODriver.o [1]
+openPayloadBfrs         0x20002230   0x28  Data  Gb  Payload.o [1]
+parserStk               0x20000a40  0x400  Data  Gb  PktParser.o [1]
+parserTCB               0x20001c20   0xd0  Data  Gb  PktParser.o [1]
+payloadBfrPair          0x200022d0   0x18  Data  Gb  Payload.o [1]
+scalbln                 0x080015cd         Code  Gb  ldexp.o [4]
+scalblnl                0x080015cd         Code  Gb  ldexp.o [4]
+scalbn                  0x080015cd         Code  Gb  ldexp.o [4]
+scalbnl                 0x080015cd         Code  Gb  ldexp.o [4]
+scale                   0x080007ff   0x46  Code  Lc  xprintffull_nomb.o [3]
+sec_hand                0x20002408    0x4  Data  Lc  xfail_s.o [3]
+strchr                  0x08000f89         Code  Gb  strchr.o [5]
+strlen                  0x08000ff1         Code  Gb  strlen.o [5]
+vsnprintf               0x08005f95   0x3c  Code  Gb  vsnprint.o [3]
+
+
+[1] = C:\Users\Lalit\Desktop\RTOS\programs\prog4\App\Flash\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+[7] = uC-CPU-CM3-IAR.a
+[8] = uC-LIB-CM3-IAR.a
+[9] = uCOS-III-CM3-IAR.a
+
+  25 652 bytes of readonly  code memory
+   1 949 bytes of readonly  data memory
+  13 349 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

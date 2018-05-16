@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\App\Prog2.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>uC/Eval-STM32F107 Projects</name>
+      <member>
+        <project>Prog2</project>
+        <configuration>Flash</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
